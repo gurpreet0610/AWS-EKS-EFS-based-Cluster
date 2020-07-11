@@ -1,0 +1,10 @@
+secretGenerator:
+    - name: mysql-pass
+      literals:
+      - password=gurpreet
+resources:
+    - create-efs-provisioner.yaml
+    - create-rbac.yaml
+    - create-storage.yaml
+    - deploy-drupal-mysql.yaml 
+    - deploy-drupal.yaml
