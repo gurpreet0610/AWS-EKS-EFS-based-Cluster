@@ -1,7 +1,7 @@
 secretGenerator:
     - name: mysql-pass
       literals:
-      - password=gurpreet
+      - password=Z3VycHJlZXQ= # password encoded in  Base64
 resources:
     - create-efs-provisioner.yaml
     - create-rbac.yaml
